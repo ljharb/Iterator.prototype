@@ -1,0 +1,29 @@
+{
+	"name": "iterator.prototype",
+	"version": "0.0.0",
+	"description": "`Iterator.prototype`, or a shared object to use.",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/iterator.prototype.git"
+	},
+	"keywords": [
+		"javascript",
+		"ecmascript",
+		"iterator",
+		"prototype"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/iterator.prototype/issues"
+	},
+	"homepage": "https://github.com/ljharb/iterator.prototype#readme"
+}
