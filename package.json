@@ -1,6 +1,6 @@
 {
 	"name": "iterator.prototype",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "`Iterator.prototype`, or a shared object to use.",
 	"main": "index.js",
 	"exports": {
