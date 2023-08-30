@@ -40,7 +40,6 @@
 		"define-properties": "^1.2.0",
 		"get-intrinsic": "^1.2.1",
 		"has-symbols": "^1.0.3",
-		"has-tostringtag": "^1.0.0",
 		"reflect.getprototypeof": "^1.0.3"
 	},
 	"devDependencies": {
