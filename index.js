@@ -5,12 +5,13 @@ var gPO = require('reflect.getprototypeof');
 var hasSymbols = require('has-symbols');
 var setFunctionName = require('set-function-name');
 var defineDataProperty = require('define-data-property');
+var $Object = require('es-object-atoms');
 
 var arrayIterProto = GetIntrinsic('%ArrayIteratorPrototype%', true);
 
 var iterProto = arrayIterProto && gPO(arrayIterProto);
 
-var result = (iterProto !== Object.prototype && iterProto) || {};
+var result = (iterProto !== $Object.prototype && iterProto) || {};
 
 if (hasSymbols()) {
 	if (!(Symbol.iterator in result)) {
