@@ -38,10 +38,10 @@
 	"homepage": "https://github.com/ljharb/Iterator.prototype#readme",
 	"dependencies": {
 		"define-properties": "^1.2.1",
-		"get-intrinsic": "^1.2.1",
-		"has-symbols": "^1.0.3",
-		"reflect.getprototypeof": "^1.0.4",
-		"set-function-name": "^2.0.1"
+		"get-intrinsic": "^1.2.6",
+		"has-symbols": "^1.1.0",
+		"reflect.getprototypeof": "^1.0.8",
+		"set-function-name": "^2.0.2"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
